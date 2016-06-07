@@ -45,6 +45,512 @@ $on-laptop:        800px;
 
 
 
+
+
+
+//@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+$font-family-main:  'Quicksand', sans-serif;
+$font-family-second: 'Raleway', sans-serif;
+
+$font_color_main:   #666;
+$font_color_second: #aaa;
+$font_color_third:  #ccc;
+//$draft_font_family: 'Permanent Marker', cursive;
+$draft_font_color:  #999;
+
+$resume_color_0:     #958957;
+$resume_color_1:     #4a1e46;
+$resume_color_1_sub: #6e2d68;
+$resume_color_2:     #47426f;
+$resume_color_2_sub: #5b558f;
+$resume_color_3:     #006D90;
+$resume_color_3_sub: #0094c3;
+$resume_color_4:     #779141;
+$resume_color_4_sub: #9CBA5F;
+
+$color-active: #AED581; //#CDDC39;
+$color-hover: #C5E1A5;
+
+$width-max: 1050px;
+
+$border_style: 1px solid #eee;
+
+#content {
+	padding-top: 50px;
+	max-width: $width-max;
+	margin: 0 auto;
+	//background: red;
+	//display: table;
+}
+
+h2, h3, h4 {
+	color: $font_color_main;
+}
+
+h2, h3 {
+	font-family: $font-family-main;
+	font-weight: normal;
+}
+
+h4 {
+	font-family:   $font-family-main;
+	font-size:     15px;
+	font-weight:   normal;
+	margin-top:    2px;
+	margin-bottom: 0;
+}
+
+li {
+	font-family: $font-family-main;
+}
+
+a > h4:hover {
+	color: $font_color_second;
+	text-decoration: underline;
+}
+
+.links {
+	color: $font_color_second;
+	text-decoration: underline;
+}
+
+.links:hover {
+	color: $font_color_third;
+	text-decoration: underline;
+}
+
+p > a {
+	text-decoration: underline;
+}
+
+p > a:hover, p > i > a:hover, li > a:hover {
+	color: $color-hover;
+	text-decoration: underline;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+div#news > h2, div#news > h3, div#news > p.date, div#news > p.quote, div#news > p.post {
+	@media (max-width: 640px) {
+		padding: 0 16px;
+	}
+}
+
+div#container-news {
+	@media (max-width: 640px) {
+		padding: 0 8px;
+	}
+}
+
+article#container-about {
+	@media (max-width: 640px) {
+		padding: 5px 8px;
+	}
+	@media (min-width: 640px) {
+		padding: 5px 20px;
+	}
+
+	p {
+		font-size: 20px;
+	}
+	i {
+		color: $color-active;
+	}
+}
+
+p > a, p > i > a, li > a, h2 > a {
+	color: $color-active;
+}
+
+h2 > a:hover {
+	color: $color-hover;
+	text-decoration: none;
+}
+
+h2.post-title {
+  margin-top: 2px;
+}
+
+div.post-separator {
+  height: 1px;
+  width: 16%;
+  margin: 50px 42% 20px;
+  background: #eee;
+}
+
+h6 {
+	font-family: $font-family-main;
+	color:       $font_color_second;
+	font-size:   12px;
+	font-weight: normal;
+	line-height: 120%;
+	margin:      0;
+}
+
+p {
+	margin: 0;
+	font-family: $font-family-second;
+}
+
+/* Header */
+
+.header {
+	border-bottom: $border_style;
+}
+
+.header h3 {
+	margin-top:    0;
+	margin-bottom: 0;
+	line-height:   40px;
+}
+
+#photos-header {
+	padding-bottom: 20px;
+	margin-bottom:  25px;
+	border-bottom:  $border_style;
+}
+
+.resume_title {
+	margin-bottom: 0;
+}
+
+.line {
+	height:        1px;
+	width:         100%;
+	margin-bottom: 10px;
+}
+
+/* Container */
+
+.description_icon {
+	float:   left;
+	padding: 4px 6px 0 0;
+}
+
+#social-list {
+	padding: 0;
+	list-style: none;
+	width: 151px;
+	margin: 0 auto;
+	/*background: blue;
+	display: table;*/
+}
+
+.social_item {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.social_link {
+	height: 30px;
+	width: 30px;
+	border-radius: 3px;
+}
+
+/* Resume */
+
+.resume_subtitle {
+	margin-top: 8px;
+}
+
+#resume > p {
+	padding-left: 20px;
+	font-size:    11px;
+	color:        $font_color_second;
+	line-height:  130%;
+}
+
+.resume_color_0 {
+	color: $resume_color_0;
+}
+
+.resume_color_0 > a {
+	color: $resume_color_0;
+}
+.resume_color_0 > a:hover {
+	color: $resume_color_0;
+	text-decoration: underline;
+}
+
+.resume_color_1 {
+	color: $resume_color_1;
+}
+.resume_line_color_1 {
+	background-color: $resume_color_1;
+}
+
+.resume_color_1_sub {
+	color: $resume_color_1_sub;
+}
+
+.resume_color_2 {
+	color: $resume_color_2;
+}
+.resume_line_color_2 {
+	background-color: $resume_color_2;
+}
+
+.resume_color_2_sub {
+	color: $resume_color_2_sub;
+}
+
+.resume_color_3 {
+	color: $resume_color_3;
+}
+.resume_line_color_3 {
+	background-color: $resume_color_3;
+}
+
+.resume_color_3_sub {
+	color: $resume_color_3_sub;
+}
+
+.resume_color_4 {
+	color: $resume_color_4;
+}
+.resume_line_color_4 {
+	background-color: $resume_color_4;
+}
+
+.resume_color_4_sub {
+	color: $resume_color_4_sub;
+}
+
+
+/* Activity */
+
+.date {
+	font-family: $font-family-main;
+	color:       $font_color_third;
+}
+
+.quote {
+	font-family: $font-family-main;
+	color:       $font_color_second;
+}
+
+.post {
+	font-family:   $font-family-second;
+	text-indent:   40px;
+	margin-bottom: 10px;
+}
+
+#container {
+	max-width: $width-max;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+
+#panel-left {
+	position: fixed;
+	margin-left: 15px;
+
+	@media (max-width: 640px) {
+		visibility: hidden;
+	}
+	@media (min-width: 640px) and (max-width: 900px) {
+		width: 195px;
+	}
+	@media (min-width: 900px) {
+		width: 250px;
+	}
+}
+
+#photo-profile {
+	border-radius: 50%;
+	width: 100%;
+
+}
+
+#panel-menu {
+	margin-top: 30px;
+	padding: 30px 0;
+	border-top: 1px solid #eee;
+}
+
+#main-view {
+	max-width: $width-max;
+	margin: 0 auto;
+	@media (max-width: 640px) {
+		padding-top: 8px;
+	}
+	@media (min-width: 640px) and (max-width: 900px) {
+		padding: 0 15px 0 240px;
+	}
+	@media (min-width: 900px) {
+		padding: 0 15px 0 295px;
+	}
+}
+
+.photo-description {
+	margin: 8px 8px 60px;
+}
+
+/* Responsive: Everything except smartphones in portrait */
+@media screen and (min-width: 640px) {
+
+	body {
+		padding-top:    20px;
+		padding-bottom: 20px;
+	}
+
+	/*.header {
+		margin-bottom: 20px;
+	}*/
+
+	/* Container */
+
+
+
+	.photo {
+		border:             10px solid #fff;
+		box-shadow:         1px 1px 2px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+		width: 100%;
+		box-sizing:         border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing:    border-box;
+		-ms-box-sizing:     border-box;
+	}
+
+	.video {
+		border:             10px solid #fff;
+		box-shadow:         1px 1px 2px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+		box-sizing:         border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing:    border-box;
+		-ms-box-sizing:     border-box;
+		width: 100%;
+		height: 426px;
+	}
+}
+
+/* Responsive: Smartphones in portrait (tested on Galaxy S4) */
+@media (max-width: 640px) {
+
+	body {
+		padding: 5px 0 20px 0;
+	}
+
+	p {
+		padding: 0 8px;
+	}
+
+	h2 {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+	.header {
+		margin-bottom: 0px;
+	}
+
+	#title {
+		padding-left: 5px;
+	}
+
+	.resume_title {
+		margin-left: 1%;
+	}
+
+	.resume_subtitle {
+		margin-left: 1%;
+	}
+
+	.line {
+		margin-left:  1%;
+		width:        98%;
+	}
+
+	/* Container */
+
+	/*.container {
+		margin: 0 0;
+		border-width: 2;
+	}*/
+
+	#panel {
+		width:          100%;
+		overflow:       auto;
+		padding-top:    20px;
+		padding-bottom: 20px;
+		border-bottom:  $border_style;
+		margin-bottom:  10px;
+	}
+
+	#main_view {
+		margin-left:  0;
+		margin-right: 0;
+	}
+
+	#photos-header {
+		padding-left:  5px;
+		padding-right: 5px;
+	}
+
+	.photo {
+		width: 100%;
+	}
+
+	.video {
+		width: 100%;
+		height: 330px;
+	}
+
+	.resume_header {
+		padding: 0 1%;
+	}
+
+	#activities {
+		padding-left:  5px;
+		padding-right: 5px;
+	}
+}
+
+.navbar {
+	border: none;
+	//-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	//box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.navbar-default {
+	background-color: #ffffff;
+}
+.container-fluid {
+	border-bottom: 1px solid #eee;//red;
+	max-width: $width-max;
+}
+.navbar-brand {
+	font-family: $font-family-main;
+	font-size: 22px;
+}
+
+.navbar-nav > li {
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+}
+.navbar-nav > li.active {
+	border-bottom: 4px solid $color-active;
+}
+.navbar-nav {
+	li.active {
+		background: white; //#F2F2F2;
+		a {
+			background: white !important; //#F2F2F2 !important;
+		}
+	}
+	li:not(.active):hover {
+		border-bottom: 4px solid #DCEDC8;
+	}
+}
+
+.navbar-nav > li > a {
+	padding: 11px 15px;
+}
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",

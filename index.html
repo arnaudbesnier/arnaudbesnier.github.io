@@ -1,23 +1,21 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="home">
+<p>Hi! my name is Arnaud.</p>
+<br>
+<p><i class="fa fa-street-view" aria-hidden="true"></i> I am a 29yo french guy living in Toronto.</p>
+<p><i class="fa fa-terminal" aria-hidden="true"></i> I am a full stack developer with a passion for the startups ecosystem.</p>
+<p>I am definitly an <i class="fa fa-android" aria-hidden="true"></i> user and I know how to create apps for this OS.</p>
+<br>
+<p> I used to <i class="fa fa-paint-brush" aria-hidden="true"></i> and play <i class="fa fa-futbol-o" aria-hidden="true"></i> when I was a teenager.</p>
+<p>I read science-fiction and entrepreneurship <i class="fa fa-book" aria-hidden="true"></i> from time to time.</p>
+<br>
+<p><i class="fa fa-film" aria-hidden="true"></i> I am a TV Shows consumer and a huge fan of Pixar animation movies.</p>
+<p><i class="fa fa-trophy" aria-hidden="true"></i> I can run 10 kilometers in approximately 41 minutes and learnt to ride a <i class="fa fa-motorcycle" aria-hidden="true"></i> in my late 20s.</p>
+<br>
+<p><i class="fa fa-cutlery" aria-hidden="true"></i> I am trying to become a vegetarian person for the health of our <i class="fa fa-globe" aria-hidden="true"></i>.</p>
+<br>
+<br>
+<p>If you want to have some news of my Toronto life you can read the posts I wrote <a href='/news'>here</a>. These posts are written in French for my family, sorry for the visitors who do not speak my native language.</p>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
