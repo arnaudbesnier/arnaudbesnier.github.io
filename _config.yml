@@ -6,8 +6,14 @@ description: >
   Explore my world and contact me if you need.
 baseurl: ""
 url: "http://arnaudbesnier.com"
+facebook_username: arnaud.besnier
 twitter_username: arnaud_besnier
+instagram_username: ribens
+soundcloud_username: arnaud_besnier
+dribbble_username: arnaud_besnier
+medium_username: arnaudbesnier
 github_username: arnaudbesnier
+linkedin_username: arnaudbesnier
 
 # Build settings
 markdown: kramdown

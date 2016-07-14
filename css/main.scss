@@ -337,6 +337,38 @@ p {
 	margin-bottom: 10px;
 }
 
+.icon--facebook > svg:hover path {
+	fill: #405898;
+}
+
+.icon--twitter > svg:hover path {
+	fill: #00ACED;
+}
+
+.icon--instagram > svg:hover path {
+	fill: #262626;
+}
+
+.icon--soundcloud > svg:hover path {
+	fill: #FF7200;
+}
+
+.icon--dribbble > svg:hover path {
+	fill: #ED6C9E;
+}
+
+.icon--medium > svg:hover path {
+	fill: #00AB6B;
+}
+
+.icon--github > svg:hover path {
+	fill: #333333;
+}
+
+.icon--linkedin > svg:hover path {
+	fill: #0576B4;
+}
+
 #container {
 	max-width: $width-max;
 	margin: 0 auto;
