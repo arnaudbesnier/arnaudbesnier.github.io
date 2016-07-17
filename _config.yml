@@ -15,5 +15,8 @@ medium_username: arnaudbesnier
 github_username: arnaudbesnier
 linkedin_username: arnaudbesnier
 
+collections:
+- photos
+
 # Build settings
 markdown: kramdown
