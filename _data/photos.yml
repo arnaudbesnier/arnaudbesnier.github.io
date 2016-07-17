@@ -1,11 +1,11 @@
-- name: petra_piana.jpg
+- name: petra-piana.jpg
   title: Petra Piana View
   subtitle: Peaceful Mountains from the Shelter
   aperture: f/5.6
   shutterSpeed: 1/30
   place: Petra Piana, Corsica, France
   date: June 24, 2015
-- name: bocca_innuminata.jpg
+- name: bocca-innuminata.jpg
   title: Bocca Innuminata
   subtitle: 3 Men on the Rocks
   aperture: f/10
@@ -40,7 +40,7 @@
   shutterSpeed: 1/200
   place: New York City, NY, USA
   date: September 30, 2013
-- name: autumn_providence.jpg
+- name: autumn-providence.jpg
   title: Autumn in Providence
   subtitle: Leaves on the bridge
   aperture: f/4
